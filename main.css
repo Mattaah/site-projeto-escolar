@@ -1,0 +1,28 @@
+body {
+    background-color: #000000;
+}
+
+header {
+    font-size: 36px;
+    color: #2E8B57;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 32px;
+    color: MediumSeaGreen;
+}
+
+.text2 {
+    color: #A9A9A9;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.align {
+    margin-top: 200px;
+}
+
+.horta-vertical {
+    text-align: center;
+}
