@@ -17,12 +17,53 @@ h2 {
     color: #A9A9A9;
     font-size: 24px;
     padding: 10px;
+    text-align: center;
 }
 
 .align {
-    margin-top: 200px;
+    margin-top: 200px;       
+    text-align: center;                   
+}
+
+.align-text {
+    font-size: 40px;
+    text-align: center;
 }
 
 .horta-vertical {
     text-align: center;
+    font-size: 50px
 }
+
+.button-container {
+    position: absolute;
+}
+
+.custom-button1 {
+    position: relative;
+    top: 100px;
+    left: 500px;
+    bottom: 20px;
+    font-size: 16px;
+    padding: 12px 28px;
+    display: inline-block;
+    background-color: #00FA9A;
+    border-radius: 4px;
+    border: 0px;
+    transition-duration: 0.5s;
+    font-family: monospace;
+    color: white;
+  }
+
+  .custom-button1:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .text-h2 {
+    font-size: 40px;
+  }
