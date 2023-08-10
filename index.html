@@ -7,45 +7,94 @@
     <title>Horta Vertical</title>
 </head>
 <body>
+    <div class="button-container" id="button-container" onclick="scrollToSection('obj')">
+        <button class="custom-button1">OBJETIVO</button>
+    </div>
 
     <div class="button-container">
-        <button class="custom-button1">Botão</button>
+        <button class="custom-button2" id="custom-button2" onclick="scrollToSection('quemsomos')">QUEM SOMOS</button>
     </div>
 
-    <header class="horta-vertical">
-        <h1>Horta Vertical</h1>
-    </header>
-
-    <section class="text">
-        <h2 class="text-h2">O QUE É UMA HORTA VERTICAL?<h2>
-        <br>
-    </section>
-
-    <div class="text2">
-        <p>Uma horta vertical é um tipo de jardim ou horta em que as plantas são cultivadas <br>
-        <p>verticalmente, em estruturas suspensas ou fixadas nas paredes, em vez de crescerem no </p> 
-        <p>solo horizontalmente. Essa abordagem é especialmente útil em espaços pequenos, urbanos </p>
-        <p>ou com restrições de espaço, onde não há muito terreno disponível para o cultivo convencional.</p>
+    <div class="button-container">
+        <button class="custom-button3">EM BREVE</button>
     </div>
 
-    <header class="align">
-        <h2 class="align-text">OBJETIVO</h2>
-    </header>
-
-    <div class="text2">
-        <p>O nosso objetivo com este projeto é proporcionar uma maior acessibilidade às pessoas que </p>
-        <p>possuem um espaço limitado em suas residências. Além de ser um projeto sustentável, irá </p>
-        <p>contribuir ao incentivo à agricultura sem agrotóxicos, limpa e altamente saudável!</p>
+    <div class="button-container">
+        <button class="custom-button4" onclick="scrollToSection('plantas-recomendadas')">PLANTAS</button>
     </div>
 
-    <header class="align">
-        <h2 class="align-text">QUEM SOMOS?</h2>
-    </header>
+    <main>
+        
+        <header class="horta">
+            <h1>Horta Vertical</h1>
+        </header>
+       
+    
+        <section class="text">
+            <h2 class="text-h2">O QUE É UMA HORTA VERTICAL?<h2>
+            <br>
+        </section>
+    
+        <section class="text2" id="text2">
+            <p>Uma horta vertical é um tipo de jardim ou horta em que as plantas são cultivadas <br>
+            <p>verticalmente, em estruturas suspensas ou fixadas nas paredes, em vez de crescerem no </p> 
+            <p>solo horizontalmente. Essa abordagem é especialmente útil em espaços pequenos, urbanos </p>
+            <p>ou com restrições de espaço, onde não há muito terreno disponível para o cultivo convencional.</p>
+        </section>
+    
+        <header class="horta-vertical">
+            <h4 class="padding" id="plantas-recomendadas">PLANTAS RECOMENDADAS</h2>
+        </header>
+    
+        <section class="plants" id="plants">
+            <h3 class="plants_2">PLANTAS QUE NÃO PRECISAM DE LUZ SOLAR</h3>
+        </section>
 
-    <div class="text2">
-        <p>Somos um projeto escolar voluntário e com uma visão para um futuro melhor não só para as </p>
-        <p>pessoas, mas, principalmente, para o planeta Terra.</p>
-    </div>
+        <div class="palavras-atencao" id="palavras-atencao">
+           <p>ESPINAFRE</p>
+        </div>
+
+        <img class="fadeinout" src="imagens/espinafre.jpg" alt="Espinafre">
+
+        <div class="palavras-atencao" id="palavras-atencao">
+            <p>MANJERICÃO</p>
+         </div>
+
+         <img class="fadeinout" src="imagens/Manjericao.jpg" alt="Manjericão">
+
+         <div class="palavras-atencao" id="palavras-atencao">
+            <p>SALSA</p>
+         </div>
+
+         <img class="fadeinout" src="imagens/salsa.jpg" alt="Salsa">
+
+         <div class="palavras-atencao" id="palavras-atencao">
+            <p>COENTRO</p>
+         </div>
+
+         <img class="fadeinout" src="imagens/coentro.jpg" alt="Coentro">
+    
+        <header class="align">
+            <h2 class="align-text" id="obj">OBJETIVO</h2>
+        </header>
+    
+        <section class="text2"> 
+            <p>O nosso objetivo com este projeto é proporcionar uma maior acessibilidade às pessoas que </p>
+            <p>possuem um espaço limitado em suas residências. Além de ser um projeto sustentável, irá </p>
+            <p>contribuir ao incentivo à agricultura sem agrotóxicos, limpa e altamente saudável!</p>
+        </section>
+    
+        <header class="align">
+            <h2 class="quemsomos" id="quemsomos">QUEM SOMOS?</h2>
+        </header>
+    
+        <section class="text2" class="text3">
+            <p>Somos um projeto escolar voluntário e com uma visão para um futuro melhor não só para as </p>
+            <p>pessoas, mas, principalmente, para o planeta Terra.</p>
+        </section>
+    
+        <script src="main.js"></script>
+    </main>
 </body>
 </html>
 

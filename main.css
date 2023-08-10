@@ -1,6 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: #000000;
 }
+
 
 header {
     font-size: 36px;
@@ -35,16 +40,21 @@ h2 {
     font-size: 50px
 }
 
+.horta {
+  font-size: 50px;
+  text-align: center;
+}
+
 .button-container {
-    position: absolute;
+    position: fixed;
 }
 
 .custom-button1 {
     position: relative;
-    top: 100px;
-    left: 500px;
-    bottom: 20px;
-    font-size: 16px;
+    top: 35px;
+    left: 50px;
+    bottom: 50px;
+    font-size: 25px;
     padding: 12px 28px;
     display: inline-block;
     background-color: #00FA9A;
@@ -53,9 +63,76 @@ h2 {
     transition-duration: 0.5s;
     font-family: monospace;
     color: white;
+    cursor: pointer;
   }
 
   .custom-button1:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .custom-button2 {
+    position: relative;
+    top: 35px;
+    left: 250px;
+    bottom: 50px;
+    font-size: 25px;
+    padding: 12px 28px;
+    display: inline-block;
+    background-color: #00FA9A;
+    border-radius: 4px;
+    border: 0px;
+    transition-duration: 0.5s;
+    font-family: monospace;
+    color: white;
+    cursor: pointer;
+  }
+
+  .custom-button2:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .custom-button3 {
+    position: relative;
+    top: 35px;
+    left: 1650px;
+    bottom: 50px;
+    font-size: 25px;
+    padding: 12px 28px;
+    display: inline-block;
+    background-color: #00FA9A;
+    border-radius: 4px;
+    border: 0px;
+    transition-duration: 0.5s;
+    font-family: monospace;
+    color: white;
+    cursor: pointer;
+  }
+
+  .custom-button3:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .custom-button4 {
+    position: relative;
+    top: 35px;
+    left: 1420px;
+    bottom: 50px;
+    font-size: 25px;
+    padding: 12px 28px;
+    display: inline-block;
+    background-color: #00FA9A;
+    border-radius: 4px;
+    border: 0px;
+    transition-duration: 0.5s;
+    font-family: monospace;
+    color: white;
+    cursor: pointer;
+  }
+
+  .custom-button4:hover {
     background-color: white;
     color: black;
   }
@@ -66,4 +143,52 @@ h2 {
 
   .text-h2 {
     font-size: 40px;
+    padding: 100px;
+    
   }
+
+  .plants {
+    color: #00FF7F;
+    margin-top: 100px;
+  }
+
+  .plants_2 {
+    text-align: center;
+    font-size: 23px;
+  }
+
+  .palavras-atencao {
+    color: #BDB76B;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  img {
+    width: 450px;
+    border: 2px solid #8FBC8F;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(85, 107, 47);
+    position: relative;
+    left: 700px;
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
+  }
+
+  .padding {
+    margin-top: 350px;
+    font-size: 40px;
+    color: mediumseagreen;
+  }
+
+  .fadeinout {
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
+}
+
+.quemsomos {
+  padding: 500px;
+  bottom: 100px;
+}
+
