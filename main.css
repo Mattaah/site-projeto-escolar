@@ -149,13 +149,14 @@ h2 {
   }
 
   .plants {
-    color: #00FF7F;
+    color: #FFD700;
     margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
   }
 
   .plants_2 {
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
   }
 
   .palavras-atencao {
