@@ -197,3 +197,48 @@ h2 {
   text-align: center;
 }
 
+footer {
+  background-color: #66CDAA;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-info, .socialmedia-info {
+  margin: 10px;
+}
+
+.contact-info h3, .socialmedia-info h3 {
+  margin-top: 0;
+}
+
+.contact-info ul, .socialmedia-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li, .socialmedia-info li {
+  margin-bottom: 25px;
+}
+
+.socialmedia-info {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-link {
+  transition: color 0.3s;
+  color: #4f0780;	
+}
+
+.social-link:hover {
+  color: aliceblue;
+}
+
