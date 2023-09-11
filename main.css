@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #000000;
+    background-color: black;
 }
 
 
@@ -244,5 +244,18 @@ footer {
 
 .social-link:hover {
   color: aliceblue;
+}
+
+.text2_video {
+  margin-top: 450px;       
+  text-align: center;   
+  padding-top: 300px;
+}
+
+.text22_video {
+  color: #A9A9A9;
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
 }
 
