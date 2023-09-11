@@ -259,3 +259,50 @@ footer {
   text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+  .custom-button1 {
+    top: 250px;
+    font-size: 15px;
+    right: 100px;
+    display: none;
+    
+  }
+  .custom-button2 {
+    position: relative;
+    top: 250px;
+    font-size: 15px;
+    display: none;
+    
+  }
+  .custom-button4 {
+    left: 500px;
+    top: 250px;
+    font-size: 15px;
+    display: none;
+  }
+  .custom-button3 {
+    left: 500px;
+    top: 250px;
+    font-size: 15px;
+    display: none;
+  }
+  .horta {
+    font-size: 50px;
+    text-align: center;
+    background-color: #EAEFC8;
+    height: 300px;
+    width: 600px;
+    padding-top: 1px;
+  }
+  img {
+    width: 300px;
+    position: relative;
+    left: 150px;
+  }
+
+  .text-h2 {
+    font-size: 40px;
+  }
+ 
+}
+
