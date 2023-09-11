@@ -302,15 +302,18 @@ footer {
 
   .text-h2 {
     font-size: 40px;
-    text-align: center;
+    position: relative;
+    left: 200px;
   }
   
   p {
-    text-align: center;
+    position: relative;
+    left: 200px;
   }
 
   .palavras-atencao {
-    text-align: center;
+    position: relative;
+    left: 100px;
   }
  
 }
