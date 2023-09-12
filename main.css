@@ -176,7 +176,7 @@ h2 {
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgb(85, 107, 47);
     position: relative;
-    left: 700px;
+    left: 800px;
     opacity: 0; 
     transition: opacity 1s ease-in-out; 
   }
@@ -288,27 +288,29 @@ footer {
   }
   .horta {
     font-size: 50px;
-    text-align: center;
+    position: relative;
     background-color: #EAEFC8;
     height: 300px;
-    width: 600px;
+    width: 800px;
     padding-top: 1px;
+    left: 200px;
+    
   }
   img {
     width: 300px;
     position: relative;
-    left: 150px;
+    left: 350px;
   }
 
   .text-h2 {
     font-size: 40px;
     position: relative;
-    left: 100px;
+    left: 250px;
   }
   
   p {
     position: relative;
-    left: 100px;
+    left: 250px;
   }
 
   .palavras-atencao {
@@ -321,7 +323,7 @@ footer {
     color: #FFD700;
     margin-top: 100px;
     font-family: 'Courier New', Courier, monospace;
-    left: 100px;
+    left: 250px;
   }
 
   .padding {
@@ -329,24 +331,24 @@ footer {
     margin-top: 350px;
     font-size: 40px;
     color: mediumseagreen;
-    left: 100px;
+    left: 250px;
   }
   .align-text {
     font-size: 40px;
     position: relative;
-    left: 100px;
+    left: 250px;
 }
 
 .quemsomos {
   margin-top: 700px;
   position: relative;
-  left: 100px;
+  left: 250px;
 }
 .text2_video {
   margin-top: 450px;       
   position: relative; 
   padding-top: 300px;
-  left: 100px;
+  left: 250px;
 }
 footer {
   background-color: #48A3A7;
