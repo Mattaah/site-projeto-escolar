@@ -21,7 +21,7 @@ h2 {
 .text2 {
     color: #A9A9A9;
     font-size: 24px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -48,98 +48,51 @@ h2 {
   padding-top: 1px;
 }
 
-.button-container {
-    position: fixed;
+.custom-button1, .custom-button2, .custom-button3, .custom-button4 {
+  position: fixed; /* Fixa os botões na tela */
+  font-size: 25px;
+  padding: 12px 28px;
+  display: inline-block;
+  background-color: #00FA9A;
+  border-radius: 4px;
+  border: 0px;
+  transition-duration: 0.5s;
+  font-family: monospace;
+  color: white;
+  cursor: pointer;
 }
 
+.custom-button1:hover,
+.custom-button2:hover,
+.custom-button3:hover,
+.custom-button4:hover {
+  background-color: #006750;
+  color: black;
+}
+
+/* Botão do lado esquerdo superior */
 .custom-button1 {
-    position: relative;
-    top: 35px;
-    left: 50px;
-    bottom: 50px;
-    font-size: 25px;
-    padding: 12px 28px;
-    display: inline-block;
-    background-color: #00FA9A;
-    border-radius: 4px;
-    border: 0px;
-    transition-duration: 0.5s;
-    font-family: monospace;
-    color: white;
-    cursor: pointer;
-  }
+  top: 20px; /* Ajuste conforme necessário */
+  left: 20px; /* Ajuste conforme necessário */
+}
 
-  .custom-button1:hover {
-    background-color: #006750;
-    color: black;
-  }
+/* Botão do lado esquerdo inferior */
+.custom-button2 {
+  top: 20px; /* Ajuste conforme necessário */
+  left: 200px; /* Ajuste conforme necessário */
+}
 
-  .custom-button2 {
-    position: relative;
-    top: 35px;
-    left: 250px;
-    bottom: 50px;
-    font-size: 25px;
-    padding: 12px 28px;
-    display: inline-block;
-    background-color: #00FA9A;
-    border-radius: 4px;
-    border: 0px;
-    transition-duration: 0.5s;
-    font-family: monospace;
-    color: white;
-    cursor: pointer;
-  }
+/* Botão do lado direito superior */
+.custom-button3 {
+  top: 20px; /* Ajuste conforme necessário */
+  right: 20px; /* Ajuste conforme necessário */
+}
 
-  .custom-button2:hover {
-    background-color: #006750;
-    color: black;
-  }
-
-  .custom-button3 {
-    position: relative;
-    top: 35px;
-    left: 1650px;
-    bottom: 50px;
-    font-size: 25px;
-    padding: 12px 28px;
-    display: inline-block;
-    background-color: #00FA9A;
-    border-radius: 4px;
-    border: 0px;
-    transition-duration: 0.5s;
-    font-family: monospace;
-    color: white;
-    cursor: pointer;
-    width: 180px;
-  }
-
-  .custom-button3:hover {
-    background-color: #006750;
-    color: black;
-  }
-
-  .custom-button4 {
-    position: relative;
-    top: 35px;
-    left: 1420px;
-    bottom: 50px;
-    font-size: 25px;
-    padding: 12px 28px;
-    display: inline-block;
-    background-color: #00FA9A;
-    border-radius: 4px;
-    border: 0px;
-    transition-duration: 0.5s;
-    font-family: monospace;
-    color: white;
-    cursor: pointer;
-  }
-
-  .custom-button4:hover {
-    background-color: #006750;
-    color: black;
-  }
+/* Botão do lado direito inferior */
+.custom-button4 {
+  top: 20px; /* Ajuste conforme necessário */
+  right: 180px; /* Ajuste conforme necessário */
+}
 
   .text {
     text-align: center;
@@ -147,7 +100,8 @@ h2 {
 
   .text-h2 {
     font-size: 40px;
-    padding: 100px;
+    padding: 20px;
+    padding-top: 20px;
     
   }
 
@@ -170,21 +124,50 @@ h2 {
     margin-top: 100px;
   }
 
-  img {
-    width: 450px;
+  .imgalpha, .imgalpha0 {
+    width: 100%;
+    max-width: 450px; /* Tamanho máximo para as imagens */
+    height: auto; /* Mantém a proporção */
     border: 2px solid #8FBC8F;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgb(85, 107, 47);
-    position: relative;
-    left: 800px;
-    opacity: 0; 
-    transition: opacity 1s ease-in-out; 
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
   }
+  
+  .zimgalpha2 {
+    width: 100%;
+    max-width: 150px; /* Tamanho máximo para as imagens pequenas */
+    height: auto; /* Mantém a proporção */
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .bottom-images-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espaço entre as imagens */
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a linha seguinte se não houver espaço suficiente */
+  }
+  
+  .top-image-container {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+
 
   .padding {
     margin-top: 350px;
     font-size: 40px;
     color: mediumseagreen;
+  }
+
+  .padding2 {
+    margin-top: 50px;
   }
 
   .fadeinout {
@@ -194,6 +177,10 @@ h2 {
 
 .quemsomos {
   margin-top: 700px;
+}
+
+.agenda2030 {
+  margin-top: 100px;
 }
 
 .text22 {
@@ -260,111 +247,39 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  .custom-button1 {
-    top: 250px;
-    font-size: 15px;
-    right: 100px;
-    display: none;
-    
-  }
-  .custom-button2 {
-    position: relative;
-    top: 250px;
-    font-size: 15px;
-    display: none;
-    
-  }
-  .custom-button4 {
-    left: 500px;
-    top: 250px;
-    font-size: 15px;
-    display: none;
-  }
-  .custom-button3 {
-    left: 500px;
-    top: 250px;
-    font-size: 15px;
-    display: none;
-  }
-  .horta {
-    font-size: 50px;
-    position: relative;
-    background-color: #EAEFC8;
-    height: 300px;
-    width: 800px;
-    padding-top: 1px;
-    left: 0px;
-    
-  }
-  img {
-    width: 300px;
-    position: relative;
-    left: 290px;
-  }
 
-  .text-h2 {
-    font-size: 40px;
-    position: relative;
-    left: 200px;
+  .custom-button1, .custom-button2, .custom-button3, .custom-button4 {
+    display: none; /* Esconde todos os botões em telas pequenas */
   }
   
-  p {
-    position: relative;
-    left: 200px;
+  /* Ajuste para imagens */
+  .imgalpha, .imgalpha0 {
+    width: 100%; /* Faz com que a imagem ocupe a largura disponível */
+    max-width: 300px; /* Largura máxima da imagem em dispositivos móveis */
+    height: auto; /* Mantém a proporção da imagem */
   }
 
-  .palavras-atencao {
-    position: relative;
-    right: 2px;
+  .bottom-images-container {
+    flex-direction: column; /* Coloca as imagens em uma coluna em vez de linha */
+    align-items: center; /* Centraliza as imagens */
   }
 
-  .plants {
-    position: relative;
-    color: #FFD700;
-    margin-top: 100px;
-    font-family: 'Courier New', Courier, monospace;
-    left: 200px;
+  .zimgalpha2 {
+    max-width: 100px; /* Tamanho máximo das imagens pequenas */
   }
 
-  .padding {
-    position: relative;
-    margin-top: 350px;
-    font-size: 40px;
-    color: mediumseagreen;
-    left: 200px;
+  /* Ajuste para outros elementos */
+  .horta {
+    width: 100%;
+    height: auto;
   }
-  .align-text {
-    font-size: 40px;
-    position: relative;
-    left: 200px;
-}
 
-.quemsomos {
-  margin-top: 700px;
-  position: relative;
-  left: 200px;
-}
-.text2_video {
-  margin-top: 450px;       
-  position: relative; 
-  padding-top: 300px;
-  left: 200px;
-}
-footer {
-  background-color: #48A3A7;
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
-  padding: 20px;
-  margin-top: 100px;
-  margin-right: -400px;
-}
+  footer {
+    margin-right: 0;
+  }
 
-.footer-content {
-  display: flex;
-  justify-content: space-around;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 20px;
+  iframe {
+    width: 100%; /* Faz com que o vídeo ocupe toda a largura disponível do container */
+    height: 300; /* Mantém a proporção do vídeo */
+  }
 }
- 
-}
-
